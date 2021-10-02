@@ -1,5 +1,13 @@
 # @sveltejs/kit
 
+## 1.0.0-next.180
+
+### Patch Changes
+
+- [fix] don't expose prerender options ([#2543](https://github.com/sveltejs/kit/pull/2543))
+
+* upgrade commonjs plugin for better ignoreTryCatch default ([#2539](https://github.com/sveltejs/kit/pull/2539))
+
 ## 1.0.0-next.179
 
 ### Patch Changes
