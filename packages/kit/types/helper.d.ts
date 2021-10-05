@@ -17,7 +17,7 @@ export type JSONString =
 	| null
 	| ToJSON
 	| JSONString[]
-	| { [key: string]: JSONString };
+	| { [key: string]: JSONString | undefined };
 
 /** `string[]` is only for set-cookie, everything else must be type of `string` */
 export type ResponseHeaders = Record<string, string | string[]>;
